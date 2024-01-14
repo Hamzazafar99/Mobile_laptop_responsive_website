@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./product.css">
+</head>
+<body>
+    <div class="top_nav">
+        <div class="conatiner top_nav_container">
+            <div class="top_nav_wrapper">
+                <p class="top_nav_p">
+                    2024 winter sale on Mobile and Laptop with free express delivery
+                </p>
+                <a href="#" class="top_nav_link">Shop Now</a>
+            </div>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="container nav_container">
+            <a href="#" class="nav_logo" ><span style="color:white ;border: 2px solid black; background-color: black;">Electronic</span> <span style="color: black;">Galaxy</span></a>
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">About</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">MyCart</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">sign</a></li>
+            </ul>
+            <div class="nav_item">
+                <form action="#" class="nav_form">
+                    <input type="text" name="search" placeholder="What you are looking for?" id="nav_input">
+                    <button type="submit"><i class="fa fa-search" class="Nav_search"></i></button>
+                </form>
+                <div class="nav-icon">
+                    <!-- <a href="#"><i class="fa fa-heart" class="icon"></i></a>
+                    <a href="#"><i class="fa fa-cart-shopping" class="icon "></i></a> -->
+                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                </div>
+
+            </div>
+        </div> 
+    </nav>
+
+<section>
+    <div class="card">
+        <div class="img">
+            <img src="./img1.webp" onclick="clickimg(this)"><br>
+            <img src="./img2.webp" onclick="clickimg(this)"><br>
+            <img src="./img3.webp" onclick="clickimg(this)"><br>
+            <img src="./img4.webp" onclick="clickimg(this)"><br>
+            <img src="./img5.webp" onclick="clickimg(this)"><br>
+        </div>
+        <div class="left">
+            <img src="img1.webp" id="imgbox">
+        </div>
+
+        <div class="right">
+            <h3>APPLE iPhone 14 (Blue, 128 GB)</h3>
+            <h1>Extra ₹9901 off</h1>
+            <h1>₹59,999 <s style="color: rgb(200, 200, 200);">Rs-69,900</s></h1>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <h4>Available offers </h4>
+            <p>Bank Offer10% off on Bank of Baroda Credit Card EMI Txns, up to ₹1,500 on orders of ₹10,000 and aboveT&C
+            </p>
+            <p>Bank Offer10% off on IDFC FIRST Bank Credit Card EMI Transactions, up to ₹1,250 on orders of ₹10,000 and
+                aboveT&C</p>
+            <p>Bank OfferFlat ₹750 off on OneCard Credit Card and Credit EMI Transactions on orders of ₹12,500 and
+                aboveT&C</p>
+            <button>Add To Cart</button>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</section>
+    <footer>
+        <div class="foot_container">
+        <div class="footer_container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis facere soluta porro ad, adipisci iure perspiciatis molestias, ipsam eveniet repellat rerum sunt recusandae?</p>
+            <ul class="footer_icons">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul> 
+        </div>
+        <div class="footer_quicklinks">
+            <h2>Support</h2>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer_quicklinks">
+            <h2>shop</h2>
+            <ul>
+                <li><a href="#">Mobiles</a></li>
+                <li><a href="#">charger</a></li>
+                <li><a href="#">laptops</a></li>
+                <li><a href="#">Electronics</a></li>
+            </ul>
+        </div>
+        <div class="footer_contact">
+            <h2>Contact</h2>
+            <ul class >
+                <li><span>
+                    <i class="fa fa-phone"></i> </span></li>
+                    <p><a href="tel:8604796246" style="color: #555;">+91 8604796246</a></p>
+                <li><span><i class="fa-solid fa-envelope"></i></span></li>
+                <p><a href="mailto:hamzasatwork@gamil.com" style="color: #555;">hamzasatwork@gmail.com</a></p>
+
+            </ul>
+        </div>
+    </div>
+    
+    </footer>
+    <hr>
+    <div class="copy_right">
+        <p>Copyright© 2023 Galaxy Electronic . All Rights Reaseved </p>
+    </div>
+    <!-- js -->
+    <script>
+        function clickimg(smallImg) {
+            let fullImg = document.getElementById("imgbox");
+            fullImg.src = smallImg.src
+        }
+    </script>
+</body>
+</html>
